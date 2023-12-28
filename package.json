@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/jest": "^0.2.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -10,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "msw-storybook-addon": "2.0.0--canary.122.b3ed3b1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -55,8 +57,12 @@
     "@storybook/testing-library": "^0.2.2",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.15",
+    "msw": "^2.0.11",
     "prop-types": "^15.8.1",
     "storybook": "^7.5.2",
     "webpack": "^5.89.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
